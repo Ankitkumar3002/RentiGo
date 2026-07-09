@@ -1,7 +1,7 @@
 {
-  "name": "wheelease-backend",
+  "name": "rentigo-backend",
   "version": "1.0.0",
-  "description": "WheelEase vehicle rental platform — REST API",
+  "description": "RentiGo vehicle rental platform — REST API",
   "type": "module",
   "main": "server.js",
   "scripts": {

@@ -1,4 +1,4 @@
-# WheelEase — Vehicle Rental Platform
+# RentiGo — Vehicle Rental Platform
 
 A centralized web platform for renting two-wheelers and four-wheelers on
 daily/weekly/monthly terms, built on the MVC pattern with a Node/Express/MongoDB
@@ -7,7 +7,7 @@ backend and a React frontend.
 ## Folder structure
 
 ```
-wheelease/
+rentigo/
 ├── backend/
 │   ├── config/
 │   │   └── db.js                 # MongoDB connection
@@ -110,7 +110,7 @@ npm start                   # starts on http://localhost:3000
 ### Demo accounts (after `npm run seed`)
 | Role     | Email                  | Password       |
 |----------|------------------------|----------------|
-| Admin    | admin@wheelease.com    | Admin@1234     |
+| Admin    | admin@rentigo.com      | Admin@1234     |
 | Agency   | agency@speedrent.com   | Agency@1234    |
 | Customer | riya@email.com         | Customer@1234  |
 
