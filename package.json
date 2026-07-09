@@ -1,0 +1,19 @@
+{
+  "name": "rentigo-platform",
+  "version": "1.0.0",
+  "description": "RentiGo — Centralized Vehicle Rental Platform",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && NODE_ENV=production node server.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npm-run-all --parallel dev:backend dev:frontend"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
