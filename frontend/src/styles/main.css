@@ -492,5 +492,44 @@ button { cursor: pointer; font-family: 'Inter', sans-serif; transition: var(--tr
   .ad-row-grid { grid-template-columns: 1fr; gap: 18px; }
   .ad-row-actions { width: 100%; }
   .ad-btn { flex: 1; text-align: center; }
+
+  /* Global Mobile Responsive Adjustments */
+  .app-content { padding: 16px 20px !important; }
+  
+  /* Navbar */
+  .navbar { flex-direction: column; gap: 16px; padding: 16px 20px; text-align: center; background: rgba(10, 10, 10, 0.95); }
+  .navbar-left, .navbar-right { justify-content: center; flex-wrap: wrap; gap: 12px; width: 100%; }
+  
+  /* Hero */
+  .hero-section { padding: 0 20px; text-align: center; }
+  .hero-content { margin-top: 160px; align-items: center; display: flex; flex-direction: column; }
+  .hero-title { font-size: 36px; }
+  .hero-subtitle { font-size: 16px; }
+  .hero-buttons { flex-direction: column; width: 100%; gap: 12px; }
+  .hero-buttons a { width: 100%; display: block; box-sizing: border-box; }
+  .hero-features { position: relative; bottom: auto; left: auto; flex-direction: column; gap: 0; padding: 12px; margin-top: 32px; margin-bottom: 40px; width: 100%; box-sizing: border-box; }
+  .hero-feature-item { padding: 16px 0; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); width: 100%; }
+  
+  /* Typography */
+  h2 { font-size: 28px !important; }
+  
+  /* Footer */
+  .footer { padding: 40px 20px; margin-top: 40px; }
+  .footer-bottom { flex-direction: column; align-items: center; gap: 16px; text-align: center; }
+  
+  /* Headers */
+  .fleet-page-header, .ad-header, .bh-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .vd-title-block h1, .fleet-page-header h1, .bh-header h1, .ad-header h1 { font-size: 28px; }
+  .vd-hero { height: 250px; }
+  .vd-container, .fleet-page, .bh-container, .ad-container { padding: 0 16px 40px; }
+  
+  /* Misc */
+  .auth-page { margin: 160px 20px 60px; }
+  .page-hero { padding: 160px 20px 40px; }
+  .page-hero-title { font-size: 36px; }
+  .vd-specs-grid { grid-template-columns: 1fr; }
+  .booking-content-grid, .company-intro, .about-mission { grid-template-columns: 1fr; }
+  .fleet-form-actions, .bh-modal-actions { flex-direction: column; }
+  .ad-vehicle-info { flex-direction: column; align-items: flex-start; }
 }
 

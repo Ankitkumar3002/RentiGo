@@ -28,12 +28,12 @@ if (process.env.NODE_ENV === "development") app.use(morgan("dev"));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // ── Routes ─────────────────────────────────────────────
-app.use("/api/auth",     authRoutes);
+app.use("/api/auth", authRoutes);
 app.use("/api/vehicles", vehicleRoutes);
 app.use("/api/bookings", bookingRoutes);
-app.use("/api/pricing",  pricingRoutes);
-app.use("/api/admin",    adminRoutes);
-app.use("/api/agency",   agencyRoutes);
+app.use("/api/pricing", pricingRoutes);
+app.use("/api/admin", adminRoutes);
+app.use("/api/agency", agencyRoutes);
 
 // ── Health check ────────────────────────────────────────
 app.get("/api/health", (req, res) =>
