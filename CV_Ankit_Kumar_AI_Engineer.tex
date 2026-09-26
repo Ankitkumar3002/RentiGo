@@ -1,0 +1,189 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins for one-page
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+\begin{center}
+    {\Huge \scshape ANKIT KUMAR} \\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+91) 8382817274 ~ \href{mailto:422cy5053@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{422cy5053@gmail.com}} ~ 
+    \href{https://linkedin.com/in/ankit-kumar-970839367}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://github.com/Ankitkumar3002}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small AI Engineer with hands-on expertise in computer vision, real-time AI applications, and full-stack development. Skilled in Python, OpenCV, MediaPipe, Streamlit, React, Node.js, and MongoDB, with a focus on building practical AI-driven products and scalable software solutions.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, itemsep=1pt]
+\item \textbf{Languages:} Python, JavaScript, TypeScript, C, C++, HTML/CSS
+\item \textbf{AI/ML:} Computer Vision, OpenCV, MediaPipe, Real-Time Pose Estimation, Groq AI, Streamlit
+\item \textbf{Frontend:} React.js, Tailwind CSS, Next.js
+\item \textbf{Backend:} Node.js, Express.js, REST APIs
+\item \textbf{Database:} MongoDB, JWT Authentication
+\item \textbf{Tools:} Git, GitHub, Postman, Vercel, n8n
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{National Institute of Technology, Rourkela}
+{Sep 2022 -- Present}
+{Integrated M.Sc. Chemistry (CGPA: 6.24)}
+{Rourkela, Odisha}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Software Engineering Intern | Unified Mentor}
+{May 2026 -- Aug 2026}
+{Backend Development}
+{}
+\resumeItemListStart
+\resumeItem{Developed RESTful APIs for vehicle listings, booking management, and rental availability using Node.js and Express.js.}
+\resumeItem{Designed MongoDB schemas for users, vehicles, and bookings to support scalable backend operations.}
+\resumeItem{Implemented JWT-based authentication and role-based authorization for secure API access.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Realtime Voice-Video AI Gym Trainer} $|$ \small Python, OpenCV, MediaPipe, Streamlit, Groq}
+{\href{https://github.com/Ankitkumar3002/Realtime-Voice-Video-AI-GYM-Trainer-Mediapipe-Llamaa}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a real-time AI fitness assistant analyzing exercise posture and movement using OpenCV and MediaPipe from webcam input.}
+\resumeItem{Implemented pose estimation and rep counting for squats, push-ups, lunges, biceps curls, and shoulder press with real-time corrective feedback.}
+\resumeItem{Integrated Groq-powered AI coaching and text-to-speech for live voice guidance, improving workout quality and user engagement.}
+\resumeItem{Designed a Streamlit application with session tracking, workout analytics, and intuitive interface for fitness training.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{AI Gym Trainer} $|$ \small Python, Streamlit, Computer Vision, AI, Product Development}
+{\href{https://github.com/Ankitkumar3002/Ai-Gym-Trainer}{GitHub}}
+\resumeItemListStart
+\resumeItem{Developed an AI-powered gym coaching platform helping users monitor form, track reps, and improve workout performance.}
+\resumeItem{Combined computer vision, exercise detection logic, and interactive design for practical real-time exercise guidance.}
+\resumeItem{Built end-to-end workout flows: exercise selection, set planning, live monitoring, and session summaries.}
+\resumeItem{Created a polished landing page and application interface for complete user-focused product experience.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{RentiGo} $|$ \small React, Node.js, Express, MongoDB, JWT, Role-Based Access Control}
+{\href{https://github.com/Ankitkumar3002/RentiGo}{GitHub}}
+\resumeItemListStart
+\resumeItem{Developed a full-stack vehicle rental platform with workflows for customers, agencies, and administrators.}
+\resumeItem{Implemented secure JWT authentication and role-based access control for authorization across multiple user roles.}
+\resumeItem{Designed modular backend using Node.js, Express, and MongoDB for vehicle management, booking logic, and pricing.}
+\resumeItem{Built responsive React frontend with reusable components and dashboard pages for seamless user experience.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{EntreSkill-Hub} $|$ \small MERN Stack, Skill Matching, Roadmap Engine}
+{\href{https://github.com/Ankitkumar3002/EntreSkill-Hub}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built full-stack platform connecting entrepreneurs with business ideas matched to their personal skills.}
+\resumeItem{Implemented skill-to-business recommendation engine with step-by-step roadmaps for validation, legal, cost estimation, and marketing.}
+\resumeItem{Developed mentor-connect messaging system and user authentication using JWT.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements \& Activities}
+\begin{itemize}[leftmargin=0.15in, itemsep=1pt]
+\item Advanced Diploma in Computer Applications
+\item Active member in DSA problem-solving sessions and coding competitions at NIT Rourkela
+\item Participated in multiple hackathons and technical workshops
+\item Contributed to open-source projects and collaborative programming initiatives
+\end{itemize}
+
+\end{document}
